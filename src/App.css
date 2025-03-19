@@ -1,0 +1,256 @@
+ /* Tailwind CSS Setup */
+
+/* Add the following classes in your Tailwind configuration or in your global stylesheet */
+
+/* Hero Section */
+.hero {
+  background-image: url('/path/to/your-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+/* Services Section */
+.services-section {
+  padding: 4rem 1rem;
+  background-color: #f7fafc;
+}
+
+.services-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.services-section .service-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.services-section .service-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Pricing Section */
+.pricing-section {
+  padding: 4rem 1rem;
+  background-color: #fff;
+}
+
+.pricing-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pricing-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.pricing-card ul {
+  margin-top: 1rem;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 4rem 1rem;
+  background-color: #edf2f7;
+}
+
+.testimonials-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card p {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+  padding: 4rem 1rem;
+  background-color: #f7fafc;
+}
+
+.contact-form-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-form .form-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border-radius: 0.375rem;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  background-color: #3182ce;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #2b6cb0;
+}
+
+.contact-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+.contact-container {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  flex: 1;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  padding: 40px;
+  color: white;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.input-group input::placeholder,
+.input-group textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.send-button {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.send-button:hover {
+  background-color: #e60073;
+}
+
+.contact-info {
+  flex: 1;
+  padding: 40px;
+  background: white;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #ff4081;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.contact-info p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.info-item span {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
